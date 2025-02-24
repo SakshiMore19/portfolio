@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+   <title>Page Title</title>
+   <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+         <nav>
+            <h1 style="font-size:50px;">SAKSHI</h1>
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#my-services">Services</a></li>
+               <li><a href="#my-work">Portfoilio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <i class="fa fa-close" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+         </nav>
+         <div class="header-text">
+            <p>CODER</p>
+            <h1>Hi, I'm<span> SAKSHI MORE from Ahilyanagar.</span><br></h1>
+         </div>
+      </div>
+    </div>
+
+    <!-- ----------About---------- -->
+     <div id="about">
+         <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                  <img src="data:image/jpeg;base64,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">
+               </div>
+               <div class="about-col-2">
+                  <h1 class="sub-title">About Me</h1>
+                  <p>Hello, I'm SAKSHI MORE ,i am  currently pursuing BCS from new art,Commerce
+                    and science college shevgaon.i have Developed skils in html,css and JavaScript.
+                    my unlimate goal is to become a proficient java full stack devloper.
+                  </p>
+
+                  <div class="tab-titles">
+                     <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                     <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                     <p class="tab-links"onclick="opentab('education')">Education</p>
+                  </div>
+                  <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>UI?UX</span><br>Designing Web/App inerface</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/ios</li>
+                     </ul>
+                  </div>
+
+                  <div class="tab-contents" id="experience">
+                     <ul>
+                        <li><span>2021-Current</span><br>UI/UX Design</li>
+                        <li><span>2019-2021</span><br>Team lead at StarApp LLC.</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016-2017</span><br>Intership at ekart eCommerce</li>
+                     </ul>
+                  </div>
+
+                  <div class="tab-contents" id="education">
+                     <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2016</span><br>MCSfrom MIT Bangalore</li>
+                        <li><span>2014</span><br>BCSfrom ISM Bangalore</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+     </div>
+
+<!-- ----------Services---------- -->
+ 
+ <section id="my-services" class="my-services">
+   <h2 class="section-title" style="color: rgba(0, 0, 0, 0.849);">My Services</h2>
+   <p class="section-description" style="color: black;">Here are some of the services I offer:</p>
+   <div class="services-grid">
+     <!-- Service 1 -->
+     <div class="service-item">
+       <i class="fa fa-bar-chart" style="color: black;"></i>
+       <h3 style="color:black;">Web Development</h3>
+       <p style="color:black;">I build fast, responsive, and secure websites using HTML, CSS, JavaScript, and frameworks like React and Angular.</p>
+       <a href="#" class="btn">Learn More</a>
+     </div>
+     <!-- Service 2 -->
+     <div class="service-item">
+      <i class="fa fa-archive" style="color: black;" ></i>
+       <h3 style="color:black;">Mobile App Development</h3>
+       <p style="color:black;">I design and develop mobile apps for Android and iOS using Java, Swift, and React Native.</p>
+       <a href="#" class="btn">Learn More</a>
+     </div>
+     <!-- Service 3 -->
+     <div class="service-item">
+       <i class="fa fa-camera"style="color: black;"></i>
+       <h3 style="color:black;">Photography</h3>
+       <p style="color:black;">I offer photography services for events, portraits, and product photography.</p>
+       <a href="#" class="btn">Learn More</a>
+     </div>
+   </div>
+ </section>
+ 
+
+ <!-- ----------portfilio---------- -->
+  
+  <section id="my-work" class="my-work">
+   <h2 class="section-title" style="color: black;">My Work</h2>
+   <p class="section-description" style="color: black;">Here are some of my recent projects.</p>
+   <div class="work-grid">
+       <!-- Project 1 -->
+       <div class="work-item">
+           <img src="https://cdn.mos.cms.futurecdn.net/xCSAEp8DjjrT2UQB87AoFN.jpg" alt="Project 1" style="height:50%; width:100%;">
+           <div class="work-item-content">
+               <h3>Project 1: Website Redesign</h3>
+               <p>Redesigned a website for a local business, resulting in a 50% increase in website traffic.</p>
+               <a href="#" class="btn">View Project</a>
+           </div>
+       </div>
+       <!-- Project 2 -->
+       <div class="work-item">
+           <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/19063608/mobile-1024x683.jpg" alt="Project 2"style="height:50%; width:100%;">
+           <div class="work-item-content">
+               <h3>Project 2: Mobile App Development</h3>
+               <p>Developed a mobile app for a startup, resulting in a 4-star rating on the app store.</p>
+               <a href="#" class="btn">View Project</a>
+           </div>
+       </div>
+   </div>
+</section>
+
+<!-- ---------------Contact-------------- -->
+ <div id="contact">
+   <div class="container">
+      <div id="row">
+      <div class="contact-left">
+         <h1 class="sub-title">Contact Me</h1><br>
+         <p><i class="fa fa-send-o"></i>sakshimore79295@gmail.com</p><br>
+         <p><i class="fa fa-phone"></i> 9209063399</p>
+         <div class="social-icons">
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-telegram"></i></a>
+         </div><br>
+         <a href="c:\Users\Lenovo\Downloads\ghongadevidyaresume-2.pdf" download class="btn btn2">Download CV</a>
+      </div>
+
+      <div class="contact-right">
+         <form>
+            <input type="text" name="Name" placeholder="enter your name" required>
+            <input type="email" name="email" placeholder="enter your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+         </form>
+      </div>
+      </div>
+   </div>
+
+ </div>
+  
+
+     <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname)
+      {
+         
+         for(tablinks of tablinks)
+           {
+               tablinks.classList.remove("active-links");
+           } 
+
+           for(tabcontents of tabcontents)
+           {
+               tabcontents.classList.remove("active-tab");
+           }  
+           event.currentTarget.classList.add("active-links");
+           document.getElementById(tabname).classList.add("active-tab");
+      }
+
+     </script>
+     <script>
+      var sidemeu=document.getElementById("sidemenu");
+      function openmenu()
+      {
+         sidemeu.style.right="0";
+      }
+      function closemenu()
+      {
+         sidemeu.style.right="-200px"
+      }
+     </script>
+</body>
+</html>
